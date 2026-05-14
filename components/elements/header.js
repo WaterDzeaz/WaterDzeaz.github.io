@@ -18,11 +18,9 @@ export default class HeaderElement {
       new NavigationItem("Casus", "/pages/casus.html"),
       new NavigationItem("Feedback", "/pages/feedback.html"),
       new NavigationItem("Reflectie", "/pages/reflectie.html"),
-      new NavigationItem("Bronnen", "/pages/bronnen.html"),
       new NavigationItem("Bijlages", "/pages/bijlage.html"),
-      new NavigationItem("Help", ""),
-      new NavigationItem("Aanmelden", ""),
-      new NavigationItem("Inloggen", ""),
+
+      new NavigationItem("Bronnen", "/pages/bronnen.html"),
     ];
 
     this.createContent();

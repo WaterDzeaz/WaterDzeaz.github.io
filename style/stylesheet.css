@@ -1,8 +1,8 @@
 :root{
+    --green-black: rgba(31, 63, 30);
     --green-dark: rgba(115, 172, 113);
     --green-head: rgba(159,215,156);
     --green-light: rgb(209,254,204);
-    --text-color: rgba(0,20,0);
 
     --nav-height: 100px;
     --footer-height: 32px;
@@ -19,7 +19,7 @@ body{
     grid-template-rows: var(--nav-height) auto var(--footer-height);
     background-image: url("./../images/background.jpg");
     font-size: var(--size-text);
-    color: var(--text-color);
+    color: var(--green-black);
 }
 
 body::before {
@@ -34,7 +34,7 @@ body::before {
 }
 
 .article{
-    border: 2px solid var(--text-color);
+    border: 2px solid var(--green-black);
     background-color: var(--green-light);
     font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -42,38 +42,46 @@ body::before {
 .header{
     font-size: var(--size-header);
     font-weight: bold;
-    background-color: var(--green-dark);
+    background-color: var(--green-head);
 }
 
 #top{
     display: grid;
     height: 100%;
     grid-template-rows: 1fr 25px;
-}
+    background-color: var(--green-head);
 
-#banner{
-    background-image: url("./../images/banner.png");
 }
 
 #nav{
     display: flex;
+    justify-content: center;
+    flex-direction: row;
     width: 100%;
+    padding: 5px 0;
+    background-color: var(--green-dark);
 }
 
 #nav div{
-    flex: 1;
+    padding: 0 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid var(--text-color);
-    background-color: var(--green-dark);
+    
     color: var(--green-light);
+    border-right: 2px solid var(--green-light);
 }
 
-#nav div:hover, #nav div.selected{
-    background-color: var(--green-light);
-    color: var(--green-dark);
+#nav div:last-child{
+    border-right: none;
+}
+
+#nav div:hover{
     cursor: pointer;
+}
+
+#nav div.selected{
+    font-weight: bold;
 }
 
 #mid{
@@ -105,5 +113,5 @@ body::before {
     justify-content: right;
     align-items:end;
     padding: 5px;
-    border: 2px solid var(--text-color);
+    border: 2px solid var(--green-black);
 }
