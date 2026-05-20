@@ -1,3 +1,4 @@
 export default class RootScript {
-  Root = document.body;
+  Body = document.body;
+  Head = document.head;
 }

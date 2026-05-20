@@ -17,7 +17,6 @@ export default class FooterElement {
     footer.className = "article";
     footer.innerHTML = "&copy;Ginger De Graaff 2026";
 
-    this.Root.Root.appendChild(footer);
+    this.Root.Body.appendChild(footer);
   }
 }
-//<div id="footer" class="article">&copy;Ginger De Graaff 2026</div>

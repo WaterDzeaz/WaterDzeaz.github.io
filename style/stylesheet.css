@@ -13,7 +13,7 @@
 
 body{
     height: calc(100vh - 60px);
-    padding: 30px;
+    padding: 80px;
     margin: 0;
     display: grid;
     grid-template-rows: var(--nav-height) auto var(--footer-height);
@@ -85,9 +85,9 @@ body::before {
 }
 
 #mid{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    display: grid;
+    grid-gap: 50px;
+    padding: 80px 0;
 }
 
 .galery{

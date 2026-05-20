@@ -37,7 +37,7 @@ export default class HeaderElement {
     this.HeaderElement.id = "top";
     this.HeaderElement.className = "article";
 
-    this.Root.Root.prepend(this.HeaderElement);
+    this.Root.Body.prepend(this.HeaderElement);
   }
 
   createBanner() {
