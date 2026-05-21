@@ -1,12 +1,12 @@
 @import url("stylesheet.css");
 
 #mid{
-    grid-template-areas:'a a b b b'
-                        'a a b b b' 
-                        'c c d d d'
-                        'c c e e e'
-                        'c c e e e';
-    grid-template-rows: repeat(5, 200px);
+    grid-template-areas:'a b'
+                        'a b' 
+                        'c d'
+                        'c e'
+                        'c e';
+    grid-template-rows: repeat(5, 18vh);
 }
 
 #profiel{
@@ -25,31 +25,35 @@
     grid-area: d;
 }
 
+#cdspeler .content{
+    padding: 0px;
+}
+
 #cd-wrapper{
     width: calc(100% - 50px);
-    margin: 20px 10px;
-    height: 150px;
+    margin: 1vh .1vw;
+    height: 15vh;
     display: grid;
     grid-template-areas:'a b'
                         'a c'
                         'a d'
                         'a e';
-    grid-template-columns: 160px auto;
+    grid-template-columns: 15vh auto;
     align-items:center;
     height: calc(100% - var(--size-header));
 }
 
 #cdspeler img{
-    height: 130px;
+    height: 9vh;
     grid-area: a;
-    border: 2px solid var(--green-black);
+    border: 0.5vh solid var(--green-black);
     margin-left: calc(var(--size-header) / 2);
 }
 
 #cdspeler-controls{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 3vw;
 }
 
 #cdspeler-controls div{
@@ -60,6 +64,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#cdspeler-controls div:hover{
+    cursor:pointer;
 }
 
 #cdspeler-score{

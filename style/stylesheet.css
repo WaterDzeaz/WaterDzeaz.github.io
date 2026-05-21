@@ -4,16 +4,16 @@
     --green-head: rgba(159,215,156);
     --green-light: rgb(209,254,204);
 
-    --nav-height: 100px;
-    --footer-height: 32px;
+    --nav-height: 12vh;
+    --footer-height: 3vh;
 
-    --size-text: 16px;
-    --size-header: 24px;
+    --size-text: 2vh;
+    --size-header: 4vh;
 }
 
 body{
-    height: calc(100vh - 60px);
-    padding: 80px;
+    height: 100vh;
+    padding: 7vh;
     margin: 0;
     display: grid;
     grid-template-rows: var(--nav-height) auto var(--footer-height);
@@ -40,15 +40,20 @@ body::before {
 }
 
 .header{
+    padding: .3vw;
     font-size: var(--size-header);
     font-weight: bold;
     background-color: var(--green-head);
 }
 
+.content{
+    padding: .3vw;
+}
+
 #top{
     display: grid;
     height: 100%;
-    grid-template-rows: 1fr 25px;
+    grid-template-rows: 1fr 3vh;
     background-color: var(--green-head);
 
 }
