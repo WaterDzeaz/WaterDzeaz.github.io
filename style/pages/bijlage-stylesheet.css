@@ -1,0 +1,25 @@
+@import url("stylesheet.css");
+
+#mid{
+    grid-template-areas:'a b b';
+    grid-template-rows: 45vh;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#bijlage-beschrijving{
+    grid-area: a;
+}
+
+
+#bijlage-galery{
+    grid-area: b;
+}
+
+
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,7 @@
+@import url("stylesheet.css");
+
+
+#mid{
+    grid-template-rows: repeat(2, 80vh);
+    grid-template-columns: repeat(2, 1fr);
+}

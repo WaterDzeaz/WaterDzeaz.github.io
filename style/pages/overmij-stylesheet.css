@@ -1,0 +1,37 @@
+@import url("stylesheet.css");
+
+#mid{
+    grid-template-areas:'a b b'
+                        'c c d'
+                        'e e e';
+    grid-template-rows: repeat(3, 45vh);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#foto-1{
+    grid-area: a;
+}
+
+#opvoeding{
+    grid-area: b;
+}
+
+#ggz-agoog{
+    grid-area: c;
+}
+
+#foto-2{
+    grid-area: d;
+}
+
+#nul-meting{
+    grid-area: e;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}

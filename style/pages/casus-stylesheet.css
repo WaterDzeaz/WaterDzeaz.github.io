@@ -1,0 +1,23 @@
+@import url("stylesheet.css");
+
+#mid{
+    grid-template-areas:'a a b';
+    grid-template-rows: 45vh;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#casus-galery{
+    grid-area: a;
+}
+
+#casus-beschrijving{
+    grid-area: b;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
