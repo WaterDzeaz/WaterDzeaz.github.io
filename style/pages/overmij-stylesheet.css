@@ -4,7 +4,6 @@
     grid-template-areas:'a b b'
                         'c c d'
                         'e e e';
-    grid-template-rows: repeat(3, 45vh);
     grid-template-columns: repeat(3, 1fr);
 }
 
