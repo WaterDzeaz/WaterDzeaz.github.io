@@ -36,7 +36,7 @@ export default class BronnenElement {
 
       const content = document.createElement("div");
       content.className = "content";
-      content.innerHTML = `${item.Achternaam}, ${item.Voorletters} (${item.Datum}). <i>${item.Title}</i>. ${item.Uitgever}. ${item.URL}`;
+      content.innerHTML = `${item.Text}`;
 
       wrapper.appendChild(content);
 

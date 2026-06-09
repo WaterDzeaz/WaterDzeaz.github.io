@@ -1,8 +1,7 @@
 @import url("stylesheet.css");
 
 #mid{
-    grid-template-areas:'a a b';
-    grid-template-rows: 45vh;
+    grid-template-areas:'a b b';
     grid-template-columns: repeat(3, 1fr);
 }
 
