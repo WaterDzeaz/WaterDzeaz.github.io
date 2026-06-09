@@ -1,62 +1,72 @@
 @import url("stylesheet.css");
 
-#mid{
-    grid-template-areas:'a b'
-                        'a b' 
-                        'c d'
-                        'c e'
-                        'c e';
+#mid {
+    grid-template-areas: 'a b'
+        'a b'
+        'c d'
+        'c e'
+        'c e';
     grid-template-rows: repeat(5, 18vh);
 }
 
-#profiel{
+#profiel {
     grid-area: a;
 }
 
-#werk{
+#profiel img {
+    height: 33vh;
+}
+
+#profiel .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#werk {
     grid-area: b;
 }
 
-#intresses{
+#intresses {
     grid-area: c;
 }
 
-#cdspeler{
+#cdspeler {
     grid-area: d;
 }
 
-#cdspeler .content{
+#cdspeler .content {
     padding: 0px;
 }
 
-#cd-wrapper{
+#cd-wrapper {
     width: calc(100% - 50px);
     margin: 1vh .1vw;
     height: 15vh;
     display: grid;
-    grid-template-areas:'a b'
-                        'a c'
-                        'a d'
-                        'a e';
+    grid-template-areas: 'a b'
+        'a c'
+        'a d'
+        'a e';
     grid-template-columns: 15vh auto;
-    align-items:center;
+    align-items: center;
     height: calc(100% - var(--size-header));
 }
 
-#cdspeler img{
+#cdspeler img {
     height: 9vh;
     grid-area: a;
     border: 0.5vh solid var(--green-black);
     margin-left: calc(var(--size-header) / 2);
 }
 
-#cdspeler-controls{
+#cdspeler-controls {
     display: flex;
     justify-content: center;
     gap: 1vw;
 }
 
-#cdspeler-controls div{
+#cdspeler-controls div {
     font-size: 1vh;
     width: 3vw;
     height: 2vh;
@@ -67,19 +77,19 @@
     align-items: center;
 }
 
-#cdspeler-controls div:hover{
-    cursor:pointer;
+#cdspeler-controls div:hover {
+    cursor: pointer;
 }
 
-#cdspeler-score{
+#cdspeler-score {
     width: 100%;
     height: 0px;
     border: .3vh solid var(--green-black);
     border-radius: 10px;
 }
 
-#cdspeler-score-dot{
-    border:2px solid var(--green-black);
+#cdspeler-score-dot {
+    border: 2px solid var(--green-black);
     border-radius: 1vh;
     width: 1vh;
     height: 1vh;
@@ -89,6 +99,6 @@
     position: relative;
 }
 
-#vrienden{
+#vrienden {
     grid-area: e;
 }
