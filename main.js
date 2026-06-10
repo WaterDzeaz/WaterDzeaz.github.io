@@ -18,9 +18,11 @@ new FooterElement(root);
 //Create Network
 new NetworkElement(root, [
     new NetworkItem("Opa en oma (vader)", "/images/people/Grandparents.jpeg"),
-    new NetworkItem("Schoonnichtje", "/images/people/Devi.jpeg"),
+    new NetworkItem("Opa en oma (moeder)", "/images/people/opa en oma (mama).jpeg"),
+    new NetworkItem("Nichtje", "/images/people/Devi.jpeg"),
     new NetworkItem("Zusje", "/images/people/Dinandy.jpeg"),
-    new NetworkItem("Nichtje", "/images/people/Elise.jpeg"),
+    new NetworkItem("Nichtje en neefje", "/images/people/Elise.jpeg"),
+    new NetworkItem("Vrienden", "/images/people/band.jpeg"),
     new NetworkItem("Zus", "/images/people/Faygun.jpeg"),
     new NetworkItem("Schoonvader", "/images/people/Humphrey.jpeg"),
     new NetworkItem("Schoonmoeder", "/images/people/Jennie.jpeg"),
@@ -28,6 +30,7 @@ new NetworkElement(root, [
     new NetworkItem("Mama", "/images/people/Mayke.jpeg"),
     new NetworkItem("Papa", "/images/people/Vader.jpeg"),
     new NetworkItem("Vriendin", "/images/people/Nancy.jpeg"),
+    new NetworkItem("Partner", "/images/people/vriendje.jpeg"),
     new NetworkItem("Schoonbroer", "/images/people/Niek.jpeg"),
     new NetworkItem("Schoonbroer", "/images/people/Niels.jpeg"),
     new NetworkItem("Schoonbroer", "/images/people/Twan.jpeg")
