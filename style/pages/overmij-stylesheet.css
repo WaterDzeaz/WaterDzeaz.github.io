@@ -34,3 +34,9 @@
     height: 100%;
     width: 100%;
 }
+
+.picture img{
+    height: 30vh;
+    width: 30vh;
+    object-fit: cover;
+}

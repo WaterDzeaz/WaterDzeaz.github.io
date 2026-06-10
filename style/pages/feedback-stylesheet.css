@@ -2,6 +2,38 @@
 
 
 #mid{
-    grid-template-rows: repeat(2, 80vh);
+
     grid-template-columns: repeat(2, 1fr);
+}
+
+.heading{
+    border: 2px solid var(--green-black);
+    font-weight: bold;
+    padding: 1vh;
+
+}
+
+.feedback_piece{
+    display: grid;
+    grid-template-areas: "a b" "a c";
+    grid-template-columns: 1fr 2fr;
+}
+
+.feedback_piece div:first-child{
+    grid-area: a;
+}
+
+.feedback_piece p{
+    font-weight: normal;
+    font-style: italic;
+}
+
+.feedback_piece > div{
+    border: 2px solid var(--green-black);
+    font-weight: bold;
+    padding: 1vh;
+}
+
+.feedback_piece div:first-child p {
+    font-style: normal;
 }

@@ -1,0 +1,12 @@
+           
+@import url("stylesheet.css");
+           
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+img{
+    width: 100%;
+}

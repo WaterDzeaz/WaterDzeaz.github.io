@@ -2,7 +2,6 @@
 
 #mid{
     grid-template-areas:'a b b';
-    grid-template-rows: 45vh;
     grid-template-columns: repeat(3, 1fr);
 }
 
@@ -13,6 +12,7 @@
 
 #bijlage-galery{
     grid-area: b;
+    flex-wrap: wrap;
 }
 
 

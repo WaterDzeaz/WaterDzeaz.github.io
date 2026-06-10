@@ -7,6 +7,8 @@
 
 #casus-galery{
     grid-area: a;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 #casus-beschrijving{
@@ -19,4 +21,9 @@
     align-items: center;
     height: 100%;
     width: 100%;
+}
+
+#casus-galery .galery-item{
+    flex-direction: row;
+    font-size: 3vw;
 }

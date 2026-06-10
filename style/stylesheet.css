@@ -37,6 +37,8 @@ body::before {
     border: 2px solid var(--green-black);
     background-color: var(--green-light);
     font-family: Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -120,9 +122,13 @@ body::before {
 
 
 #footer {
-    display: flex;
+    flex-direction: row;
     justify-content: right;
     align-items: center;
     padding: 0 10px;
     border: 2px solid var(--green-black);
+}
+
+.emoji{
+    height: var(--size-text) !important;
 }
