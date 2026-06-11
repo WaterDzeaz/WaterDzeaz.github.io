@@ -48,6 +48,10 @@ body::before {
     height: 10vh;
 }
 
+#banner img:hover {
+    cursor: pointer;
+}
+
 .article {
     border: 2px solid var(--green-black);
     background-color: var(--green-light);
