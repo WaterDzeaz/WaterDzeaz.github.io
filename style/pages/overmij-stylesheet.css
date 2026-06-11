@@ -1,33 +1,37 @@
 @import url("stylesheet.css");
 
-#mid{
-    grid-template-areas:'a b b'
-                        'c c d'
-                        'e e e';
-    grid-template-columns: repeat(3, 1fr);
+#mid {
+    grid-template-areas: 'a b b'
+        'c c d'
+        'e e e';
+    grid-template-columns: 33vh 1fr 33vh;
 }
 
-#foto-1{
+#foto-1 {
     grid-area: a;
 }
 
-#opvoeding{
+#opvoeding {
     grid-area: b;
 }
 
-#ggz-agoog{
+#ggz-agoog {
     grid-area: c;
 }
 
-#foto-2{
+#foto-2 {
     grid-area: d;
 }
 
-#nul-meting{
+#nul-meting {
     grid-area: e;
 }
 
-.picture{
+.content.picture {
+    padding: 0;
+}
+
+.picture {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,8 +39,9 @@
     width: 100%;
 }
 
-.picture img{
+.picture img {
     height: 30vh;
     width: 30vh;
     object-fit: cover;
+    margin: 1vh;
 }

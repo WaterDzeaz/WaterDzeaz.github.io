@@ -44,6 +44,15 @@ export default class HeaderElement {
         const banner = document.createElement("div");
         banner.id = "banner";
 
+        const img = document.createElement("img");
+        img.src = "/images/banner.png";
+        img.onclick = ()=>{
+            // @ts-ignore
+            window.location = "/index.html";
+        }
+
+        banner.appendChild(img)
+
         const searchWrapper = document.createElement("div");
         const searchSpan = document.createElement("span");
         const searchInput = document.createElement("input");

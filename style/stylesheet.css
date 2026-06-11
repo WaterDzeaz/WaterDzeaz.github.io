@@ -33,9 +33,15 @@ body::before {
     z-index: -1;
 }
 
-#banner{
+#banner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 3vh;
+}
+
+#banner img {
+    height: 10vh;
 }
 
 .article {
@@ -44,6 +50,7 @@ body::before {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.3);
 }
 
 .header {
@@ -128,12 +135,16 @@ body::before {
 
 #footer {
     flex-direction: row;
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
     padding: 0 10px;
     border: 2px solid var(--green-black);
 }
 
-.emoji{
+#footer img {
+    height: 3vh;
+}
+
+.emoji {
     height: var(--size-text) !important;
 }

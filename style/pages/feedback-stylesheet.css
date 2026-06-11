@@ -1,34 +1,34 @@
 @import url("stylesheet.css");
 
 
-#mid{
+#mid {
 
     grid-template-columns: repeat(2, 1fr);
 }
 
-.heading{
+.heading {
     border: 2px solid var(--green-black);
     font-weight: bold;
     padding: 1vh;
 
 }
 
-.feedback_piece{
+.feedback_piece {
     display: grid;
     grid-template-areas: "a b" "a c";
     grid-template-columns: 1fr 2fr;
 }
 
-.feedback_piece div:first-child{
+.feedback_piece div:first-child {
     grid-area: a;
 }
 
-.feedback_piece p{
+.feedback_piece p {
     font-weight: normal;
     font-style: italic;
 }
 
-.feedback_piece > div{
+.feedback_piece>div {
     border: 2px solid var(--green-black);
     font-weight: bold;
     padding: 1vh;
@@ -36,4 +36,11 @@
 
 .feedback_piece div:first-child p {
     font-style: normal;
+}
+
+.leerpunt {
+    border: 2px solid var(--green-black);
+    margin-bottom: 2vh;
+    padding: 1vh;
+    color: var(--green-dark);
 }

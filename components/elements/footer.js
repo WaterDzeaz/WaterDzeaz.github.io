@@ -15,7 +15,15 @@ export default class FooterElement {
     const footer = document.createElement("div");
     footer.id = "footer";
     footer.className = "article";
-    footer.innerHTML = "&copy;Ginger De Graaff 2026";
+    
+    const img = document.createElement("img");
+    img.src = "/images/footer.png";
+
+    const copy = document.createElement("div");
+    copy.innerHTML = "&copy;Ginger De Graaff 2026";
+
+    footer.appendChild(img);
+    footer.appendChild(copy)
 
     this.Root.Body.appendChild(footer);
   }
