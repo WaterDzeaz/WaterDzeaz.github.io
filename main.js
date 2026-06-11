@@ -20,6 +20,7 @@ new NetworkElement(root, [
     new NetworkItem("Opa en oma (vader)", "/images/people/Grandparents.jpeg"),
     new NetworkItem("Opa en oma (moeder)", "/images/people/opa en oma (mama).jpeg"),
     new NetworkItem("Nichtje", "/images/people/Devi.jpeg"),
+    new NetworkItem("Neefje", "/images/people/Dane.jpeg"),
     new NetworkItem("Zusje", "/images/people/Dinandy.jpeg"),
     new NetworkItem("Nichtje en neefje", "/images/people/Elise.jpeg"),
     new NetworkItem("Vrienden", "/images/people/band.jpeg"),

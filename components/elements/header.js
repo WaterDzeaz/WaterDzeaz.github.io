@@ -62,9 +62,9 @@ export default class HeaderElement {
         searchWrapper.appendChild(searchInput);
         searchWrapper.appendChild(searchBtn);
 
-        searchSpan.innerHTML = "zoek persoon:";
-        searchInput.placeholder = "zoeken...";
-        searchBtn.innerHTML = "zoek";
+        searchSpan.innerHTML = "Zoek persoon:";
+        searchInput.placeholder = "Zoeken...";
+        searchBtn.innerHTML = "Zoek";
 
         banner.appendChild(searchWrapper);
 
@@ -73,9 +73,9 @@ export default class HeaderElement {
         const divide = document.createElement("span");
         const loginA = document.createElement("a");
 
-        helpA.innerHTML = "help";
+        helpA.innerHTML = "Help";
         divide.innerHTML = "|";
-        loginA.innerHTML = "login";
+        loginA.innerHTML = "Login";
 
         // @ts-ignore
         helpA.href = loginA.href = window.location;

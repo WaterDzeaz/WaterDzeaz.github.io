@@ -30,10 +30,7 @@ export default class BronnenElement {
     for (const item of this.List) {
       const wrapper = document.createElement("div");
       wrapper.className = "article";
-      wrapper.onclick = () => {
-        window.open(item.URL);
-      };
-
+      
       const content = document.createElement("div");
       content.className = "content";
       content.innerHTML = `${item.Text}`;

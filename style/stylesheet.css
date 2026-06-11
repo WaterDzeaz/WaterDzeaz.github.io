@@ -40,6 +40,10 @@ body::before {
     padding: 0 3vh;
 }
 
+#banner input {
+    margin: 0 1vh;
+}
+
 #banner img {
     height: 10vh;
 }
