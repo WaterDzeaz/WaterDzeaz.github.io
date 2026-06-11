@@ -39,10 +39,10 @@ new NetworkElement(root, [
 
 //Some galeries
 new GaleryElement(root, "casus-galery", [
-    new GaleryItem("situatie 1", "/pages/casus/casus_situatie_1.html"),
-    new GaleryItem("situatie 2", "/pages/casus/casus_situatie_2.html"),
-    new GaleryItem("situatie 3", "/pages/casus/casus_situatie_3.html"),
-    new GaleryItem("situatie 4", "/pages/casus/casus_situatie_4.html")
+    new GaleryItem("Situatie 1", "/pages/casus/casus_situatie_1.html"),
+    new GaleryItem("Situatie 2", "/pages/casus/casus_situatie_2.html"),
+    new GaleryItem("Situatie 3", "/pages/casus/casus_situatie_3.html"),
+    new GaleryItem("Situatie 4", "/pages/casus/casus_situatie_4.html")
 ]);
 new GaleryElement(root, "bijlage-galery", [
     new GaleryItem("Bijlage 1", "/pages/bijlages/bijlage_1.html"),
